@@ -2,10 +2,890 @@
 title: "shadarf.github.io"
 ---
 
-This is a Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Personalized medicine group {.unlisted}
 
-```{r}
-1 + 1
+::: panel-tabset
+## intro
+
+-   member since Jul 2023
+-   Personalisierte Medizin und organoide pharmazeutische Testmodelle:\
+    Fortschrittliche Materialien, Analytik und Computertechnik.
+
+## Group
+
+- The group mainly operates in heidelberg and mannheim universities. 
+
+## future
+
+-   Transfer-oriented scientists.
+
+-   personalized medicine perspective.
+
+-   AI, 3D modeling, spheroids and organoids.
+:::
+
+```{css}
+#| echo: false
+.vertical-scroll-container {
+  max-height: 500px; /* Adjust height as needed */
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  position: relative;
+}
+
+/* Position the nav buttons on the right */
+.vertical-nav {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.vertical-nav button {
+  display: block;
+  margin: 5px;
+  font-size: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
 ```
+
+```{js}
+#| echo: false
+document.addEventListener("DOMContentLoaded", function() {
+  const container = document.getElementById("scrollContainer");
+  document.getElementById("scrollUp").addEventListener("click", function() {
+      container.scrollBy({ top: -100, behavior: "smooth" });
+  });
+  document.getElementById("scrollDown").addEventListener("click", function() {
+      container.scrollBy({ top: 100, behavior: "smooth" });
+  });
+});
+```
+
+## 0. From prehistoric times: Why medicine ?
+
+::::: {style="position: relative;"}
+<!-- Scrollable container with id -->
+
+::: {#scrollContainer .vertical-scroll-container}
+![](input/Slide0%20Pharaoh/Slide2.png){width="175%"} <!-- If you have additional content (e.g., more images), add them here -->
+
+<p>Immortality has been the ultimate goal!</p>
+:::
+
+<!-- Navigation Buttons -->
+
+::: vertical-nav
+<button id="scrollUp">
+
+▲
+
+</button>
+
+<button id="scrollDown">
+
+▼
+
+</button>
+:::
+:::::
+
+## Reason {.unlisted}
+
+immortality has been one of the main reasons.
+
+![](input/Slide0%20Pharaoh/Slide3.png)
+
+## Members {.unlisted}
+
+![Members of Alcor since 1972](input/Slide0%20Pharaoh/Slide_5%20members.png)
+
+## Recent findings {.unlisted}
+
+viral Megastructure finding could also be pseudoscience, no real data.
+
+![Fake or real ?](input/Slide0%20Pharaoh/Khafre_Pyramid-large.png){width="310"}
+
+source: <https://www.dailymail.co.uk/sciencetech/article-14569317/Egypt-Giza-pyramid-underground-city-discovery.html>
+
+## Chinese perspective of house-doctor {.unlisted}
+
+prevention is better than cure.
+
+![](input/Slide0%20Pharaoh/doctorate-traditional-chinese-medicine-hero.jpg)
+
+
+## Avicenna إبن سینا {.unlisted}
+
+::: panel-tabset
+## History
+
+![](input/Slide_Avicenna/Avicenna_1.png)
+
+## **Med.Concepts**
+
+-   **Evidence-Based Medicine**: Advocated systematic observation, experimentation, and logical reasoning.
+
+-   **Contagious Diseases**: Suggested that some diseases spread via *tiny organisms* (predating germ theory).
+
+-   **Quarantine Principle**: Proposed isolating sick patients to prevent disease spread.
+
+-   **Psychological Influence on Health**: Recognized the connection between mental and physical health (early psychosomatic medicine).
+
+## **Anatomy & Physiology**
+
+-   Described the **circulatory system** (though not full circulation like Harvey).
+
+-   Detailed the **structure of the eye**, brain, heart, and liver.
+
+-   Distinguished between **pleurisy** and **pneumonia**.
+
+## **Pharm.&DrugDev**
+
+-   Classified **760+ drugs** with dosages and effects.
+
+-   Introduced **experimental testing** of remedies before use.
+
+-   Advanced **herbal medicine**, distillation, and chemical-based treatments
+
+## **Surg.Innovations**
+
+-   Emphasized **diet, exercise, and hygiene** for disease prevention.
+
+-   Linked **environmental factors** (air, water quality) to health.
+
+## Medicine Str.
+
+-   Organized medicine into **five books**:
+
+    1.  General principles of medicine
+
+    2.  Materia medica (drugs & remedies)
+
+    3.  Diseases affecting specific organs
+
+    4.  Systemic diseases (e.g., fevers, infections)
+
+    5.  Compound drugs & pharmacology
+:::
+## Medical ethics topics {.unlisted}
+
+1.  Human beings have faced a lot of challenges, tackling them required ways to interact with the challenges.
+
+<div>
+
+```         
+  Medical ethics has been related to three main topics: 
+  Religion باوەڕی ئاینی 
+  Philosophy فەلسەفە
+  Moral reasoning هۆکارهێنانەوەی ئاکاری
+```
+
+</div>
+
+## **Topic-1:** Religion {.unlisted}
+
+-   **Example**: in Christianity that blood transfusion is forbidden.
+
+-   **Circumcision**: in Judaism is a must, they found out about Haemophilia.
+
+    ![](input/Slide_medicalEthics_topics/Religion.png){width="457"}
+
+## **Topic-2:** Philosophy {.unlisted}
+
+example: Homunculus in sperm as drawn by Nicolaas-Hartsoeker in1695
+
+![](input/Slide_medicalEthics_topics/Homunculus-in-sperm-as-drawn-by-Nicolaas-Hartsoeker-in-1695.png){width="159"}
+
+## Topic-3: Moral reasoning {.unlisted}
+
+-   ::: panel-tabset
+    ## **Framework**
+
+    Moral reasoning is the process of evaluating ethical dilemmas systematically.
+
+    Beauchamp & Childress’ Four Principles framework:
+
+    -   [Autonomy](#autonomy)
+    -   [Beneficence](#beneficence)
+    -   [Non-maleficence](#nonmaleficence)
+    -   [Justice](#justice)
+
+    ## Explanation
+
+    ### Autonomy {#autonomy}
+
+    Respect patients'/participants' choices.
+
+    ### Beneficence {#beneficence}
+
+    Act in their best interest.
+
+    ### Non-maleficence
+
+    Avoid harm.
+
+    ### Justice {#justice}
+
+    Ensure fairness in resource allocation.
+
+    ## Example-1
+
+    **Ventilator Shortage During COVID-19**
+
+    **Scenario**:
+
+    -   10 patients need ventilators, but only 6 are available.
+
+    -   How should hospitals prioritize who gets treatment?
+
+    ## Apply
+
+    **Moral Reasoning Approach**:
+
+    -   **Autonomy**: Can patients/families consent to triage protocols?
+
+    -   **Beneficence**: Prioritize those most likely to survive with treatment.
+
+    -   **Non-maleficence**: Avoid denying care based on age/disability alone.
+
+    -   **Justice**: Use a lottery system to ensure fairness.
+
+    ## Outcome
+
+    Many hospitals adopted **triage scores** (medical urgency + survivability).
+
+    |                |               |                   |
+    |----------------|---------------|-------------------|
+    |                | **Important** | **Not-important** |
+    | **Urgent**     | **I-U**       | U                 |
+    | **Not-urgent** | I             | I                 |
+
+    : Eisenhower Matrix
+    :::
+
+## Which branches of Medicine do we consider medical sciences ? {.unlisted}
+
+1.  General medicine.
+
+2.  Pharmacology
+
+3.  Veternary medicine
+
+4.  Dentistry
+
+5.  Community medicine
+
+## Science vs Pseudoscience in Medicine {.unlisted}
+
+1.  Purple toothpaste removes yellow stain.
+
+```         
+-    Backed by physics, but still fake.
+```
+
+![](input/Slide0%20Pharaoh/ToothPaste1.png)
+
+## Pseudoscience in biotechnology {.unlisted}
+
+-   Theory of scalar waves by german pseudoscientist Konstantin Meyl.
+
+![](input/Slide0%20Pharaoh/Slide4ScalarwavesDNA.png)
+
+## 1. Ethical challenges in clinical trials.
+
+*\[Case Study 1\]* The dead salmon of the Uni Houston
+
+![The dead salmon after MRI scan after showing it human images.](input/Slide1/Slide1_DeadSalmon.png){fig-align="center" width="728"}
+
+## Experiment Details {.unlisted}
+
+-   They then asked the salmon what emotion the human must have felt.
+-   The results showed neural activities when the salmon was confronted with human images.
+    -   The device needed calibration
+-   **Learnt outcome**:
+    -   Negative control is required to report specificity.
+    -   Statistical power and design is necassary.
+    -   The research won ignoble prize.
+
+## Ignoble prize winner {.unlisted}
+
+![](input/Slide1/DeadSalmon%20Article.png)
+
+<http://prefrontal.org/files/posters/Bennett-Salmon-2009.pdf>
+
+\[**DOI:** <https://doi.org/10.1038/nj7420-437a>\] [Nature Q&A](https://doi.org/10.1038/nj7420-437a)
+
+## Jolie Effect {.unlisted}
+
+::::::::: panel-tabset
+## Case
+
+::::: {style="position: relative;"}
+<!-- Scrollable container with id -->
+
+::: vertical-scroll-container
+![](input/Additional_Slides/2%20-%20Jolie%20effect.png){width="175%"} <!-- If you have additional content (e.g., more images), add them here -->
+
+<p>Her mother died of breast cancer, though!</p>
+:::
+
+<!-- Navigation Buttons -->
+
+::: vertical-nav
+<button id="scrollUp">
+
+▲
+
+</button>
+
+<button id="scrollDown">
+
+▼
+
+</button>
+:::
+:::::
+
+## Effect
+
+::::: {style="position: relative;"}
+<!-- Scrollable container with id -->
+
+::: vertical-scroll-container
+![](input/Additional_Slides/3%20-%20Jolie%20effect.png){width="175%"} <!-- If you have additional content (e.g., more images), add them here -->
+
+<p>Rates spiked for 1 year</p>
+:::
+
+<!-- Navigation Buttons -->
+
+::: vertical-nav
+<button id="scrollUp">
+
+▲
+
+</button>
+
+<button id="scrollDown">
+
+▼
+
+</button>
+:::
+:::::
+:::::::::
+
+## Neuralink {.unlisted}
+
+::::::::: panel-tabset
+## Case
+
+::::: {style="position: relative;"}
+<!-- Scrollable container with id -->
+
+::: vertical-scroll-container
+![](input/Additional_Slides/1%20-%20BCI.png){width="175%"} <!-- If you have additional content (e.g., more images), add them here -->
+
+<p>pause and Ponder!</p>
+:::
+
+<!-- Navigation Buttons -->
+
+::: vertical-nav
+<button id="scrollUp">
+
+▲
+
+</button>
+
+<button id="scrollDown">▼</button>
+:::
+:::::
+
+## Question
+
+-   How do you assess the benefits and risks of this technology ?
+
+## Alt-BCI
+
+::::: {style="position: relative;"}
+<!-- Scrollable container with id -->
+
+::: vertical-scroll-container
+![](input/Additional_Slides/BCI_alternatives.png){width="175%"} <!-- If you have additional content (e.g., more images), add them here -->
+
+<p>pause and Ponder!</p>
+:::
+
+<!-- Navigation Buttons -->
+
+::: vertical-nav
+<button id="scrollUp">
+
+▲
+
+</button>
+
+<button id="scrollDown">▼</button>
+:::
+:::::
+:::::::::
+
+## The Tuskegee Syphilis Study (**1932**-**1972**) {.unlisted}
+
+::: panel-tabset
+## Case study 2
+
+The Tuskegee Syphilis Study (**1932**-**1972**) - caused distrust in the US government.
+
+## What happened
+
+1.  US public health service studied untreated syphilis in **600 black men** without informed consent.
+
+2.  Participants were denied treatment even after penicillin became the cure in the **1940**s.
+
+## Ethical issue
+
+1.  Violation of **informed consent**, and **beneficence**.
+
+2.  **Systemic racism** and **exploitation** of vulnerable population.
+
+## Lesson learnt
+
+-   Lead to the modern ethical guidelines (**Belmont Report**) emphasizing autonomy and justice.
+:::
+
+## - Injecting Ethiubian Jews to make them infertile {.unlisted}
+
+:::::: panel-tabset
+## Case study 3
+
+::::: {style="position: relative;"}
+<!-- Scrollable container with id -->
+
+::: vertical-scroll-container
+!![](input/Israeli-Ethiupean%20Jews/01_Jews_contraceptive.png){width="175%"} <!-- If you have additional content (e.g., more images), add them here -->
+
+<p>pause and Ponder!</p>
+:::
+
+<!-- Navigation Buttons -->
+
+::: vertical-nav
+<button id="scrollUp">▲</button> <button id="scrollDown">▼</button>
+:::
+:::::
+
+## what happened
+
+Thousands of Ethiopian women are said to be receiving shots of Depo-Provera every three months in Israeli clinics. The contraceptive stops menstruation and has been linked to fertility problems and osteoporosis.
+
+## Ethical issue
+
+Racial discrimination + Genocide.
+
+## Lesson learnt
+
+Yet to be learnt.
+::::::
+
+## 2. **Genomic and Biotechnological research.**
+
+:::::: panel-tabset
+## Geno\|Pheno-type
+
+**Genotype** \| sum of all genetic material in a given organism.
+
+**Phenotype** \| expression of the genotype.
+
+## Multi-omics
+
+-   Multimodal integration has gained attention in many genomics, transcriptomics, and other spatial omics studies.
+
+-   data is high dimensional. Requires AI development for diagnosis and biomarker discovery.
+
+## Case study
+
+![](input/03%20Cure%20of%20DownSyndrome.jpg){width="279"}
+
+## Article
+
+![](input/Slide_triosomyCure/Article_triosomyRescue.png)
+
+**DOI**: 10.1093/pnasnexus/pgaf022
+
+## Workflow
+
+::::: {style="position: relative;"}
+<!-- Scrollable container with id -->
+
+::: vertical-scroll-container
+![](input/Slide_triosomyCure/Trisomy-21-Rescue.png){width="175%"} <!-- If you have additional content (e.g., more images), add them here -->
+
+<p>pause and Ponder!</p>
+:::
+
+<!-- Navigation Buttons -->
+
+::: vertical-nav
+<button id="scrollUp">
+
+▲
+
+</button>
+
+<button id="scrollDown">▼</button>
+:::
+:::::
+
+## Outcome
+
+1.  Shown potential to do trisomy rescue.
+
+2.  Not yet performed on living organisms. \[published **Feb. 2025**\]
+::::::
+
+## 3. **Pandemics, Public Health, and Policy Experiments.**
+
+::::::::::::::: panel-tabset
+## Covid-19 Plandemic
+
+-   Was Covid a Plandemic ? What are the evidences for-and-against this theme ?
+
+::::: {style="position: relative;"}
+<!-- Scrollable container with id -->
+
+::: vertical-scroll-container
+![](input/COVIDPandemicsSlide/plandemic%201.png){width="334"}<!-- If you have additional content (e.g., more images), add them here -->
+
+<p>pause and Ponder!</p>
+:::
+
+<!-- Navigation Buttons -->
+
+::: vertical-nav
+<button id="scrollUp">
+
+▲
+
+</button>
+
+<button id="scrollDown">
+
+▼
+
+</button>
+:::
+:::::
+
+## Consensus AI
+
+::::: {style="position: relative;"}
+<!-- Scrollable container with id -->
+
+::: vertical-scroll-container
+![](input/COVIDPandemicsSlide/Risks_plandemic.png){width="698"}))){width="175%"} <!-- If you have additional content (e.g., more images), add them here -->
+
+<p>pause and Ponder!</p>
+:::
+
+<!-- Navigation Buttons -->
+
+::: vertical-nav
+<button id="scrollUp">
+
+▲
+
+</button>
+
+<button id="scrollDown">
+
+▼
+
+</button>
+:::
+:::::
+
+## Off-target effect
+
+![](input/COVIDPandemicsSlide/02_offTarget_effects.png){width="947"}
+
+## Case study
+
+::::: {style="position: relative;"}
+<!-- Scrollable container with id -->
+
+::: vertical-scroll-container
+![](input/COVIDPandemicsSlide/01_Turkey_Covid19.jpg){width="175%"} <!-- If you have additional content (e.g., more images), add them here -->
+
+<p>pause and Ponder!</p>
+:::
+
+<!-- Navigation Buttons -->
+
+::: vertical-nav
+<button id="scrollUp">
+
+▲
+
+</button>
+
+<button id="scrollDown">
+
+▼
+
+</button>
+:::
+:::::
+
+## What happened
+
+::::: {style="position: relative;"}
+<!-- Scrollable container with id -->
+
+::: vertical-scroll-container
+turned out to be good though :D
+
+| City    | Vaccination% |
+|---------|--------------|
+| Hakkari | 1.27         |
+| Agri    | 1.34         |
+| Shrnak  | 1.46         |
+| Siirt   | 1.67         |
+| Urfa    | 1.76         |
+
+<!-- If you have additional content (e.g., more images), add them here -->
+
+<p>pause and Ponder!</p>
+:::
+
+<!-- Navigation Buttons -->
+
+::: vertical-nav
+<button id="scrollUp">▲</button> <button id="scrollDown">▼</button>
+:::
+:::::
+
+-   Restricted availability of Covid-19 vaccine in Kurdish areas.
+
+## Lesson learnt
+
+-   COVAX framework to promote equitable vaccine access.
+
+-   31.12.2023 COVAX got closed, though.
+:::::::::::::::
+
+## 4. **Community & Patient Partnerships in Research.**
+
+:::::: panel-tabset
+## Case study 6
+
+The **Navajo** Nation Banned Genetic Research after past exploitation. Misuse of blood samples. \[2002-present\]
+
+## What happened
+
+::::: {style="position: relative;"}
+<!-- Scrollable container with id -->
+
+::: vertical-scroll-container
+![](input/biocolonialism_navajoSlide/Navajo1.jpg){width="175%"} <!-- If you have additional content (e.g., more images), add them here -->
+
+<p> Misuse of Blood Samples: In the 1990s, blood samples collected from the Navajo for diabetes research were later used without consent for unrelated studies (e.g., schizophrenia, population genetics).</p>
+:::
+
+<!-- Navigation Buttons -->
+
+::: vertical-nav
+<button id="scrollUp">
+
+▲
+
+</button>
+
+<button id="scrollDown">
+
+▼
+
+</button>
+:::
+:::::
+
+## Ethical issue
+
+-   Historical distrust due to **biocolonialism** and lack of community consent.
+
+-   Importrance of cultural respect and shared decision-making.
+
+## Lesson learnt
+
+Successful research requires building trust and prioretizing community prioreties.
+::::::
+
+## Medical research in KRG {.unlisted}
+
+::: panel-tabset
+## Status
+
+-   The key-word "**Sulaimani**", "**As-Sulaimaneyah**" or "**KRG**" have been leveraged.
+-   **Question**: What does this reflect? (n = 2,124 Articles)
+
+## Data
+
+```{r echo=F, warning=F, message=F}
+# load data:
+# pubmed based keyword search data: 
+pubmed <- data.table::fread(file.path("input/researchStatus KRG/01_pubmed_SULI_krg.csv"))
+
+# Open alex based Keyword search data: 
+openAlex1 <- data.table::fread(file.path("input/researchStatus KRG/openalex-group-1.csv"))
+openAlex2 <- data.table::fread(file.path("input/researchStatus KRG/openalex-group-by-2.csv"))
+openAlex3 <- data.table::fread(file.path("input/researchStatus KRG/openalex-group-by-4.csv"))
+
+### Dashboard starts here: 
+# Load required libraries
+library(patchwork)
+library(ggplot2)
+library(data.table)
+library(dplyr)
+
+
+# --- Data Loading & Cleaning (Assumed already done) ---
+
+# PubMed data is assumed loaded as:
+# pubmed <- data.table::fread(file.path("input/researchStatus KRG/01_pubmed_SULI_krg.csv"))
+
+# Clean OpenAlex1 data: (Publication Year)
+openAlex1_clean <- openAlex1[-(1:2), ] %>% 
+  mutate(
+    Year = as.integer(V1),
+    Count = as.integer(V2)
+  ) %>% 
+  filter(!is.na(Year) & !is.na(Count))
+
+# Clean OpenAlex2 data: (Open Access)
+openAlex2_clean <- openAlex2[-(1:2), ] %>%
+  mutate(
+    OpenAccess = V1,
+    Count = as.integer(V2)
+  ) %>%
+  filter(!is.na(Count))
+
+# Clean OpenAlex3 data: (Institutions)
+openAlex3_clean <- openAlex3[-(1:2), ] %>%
+  mutate(
+    Institution = V1,
+    Count = as.integer(V2)
+  ) %>%
+  filter(!is.na(Count))
+
+# --- Static Plots ---
+
+# 1. PubMed Barplot
+p_pubmed <- ggplot(pubmed, aes(x = factor(Year), y = Count)) +
+  geom_bar(stat = "identity", fill = "steelblue") +
+  theme_minimal() +
+  labs(title = "PubMed Publications by Year", x = "Year", y = "Count") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+# 2. OpenAlex1 Barplot (Wider)
+p_openalex1 <- ggplot(openAlex1_clean, aes(x = factor(Year), y = Count)) +
+  geom_bar(stat = "identity", fill = "darkgreen") +
+  theme_minimal() +
+  labs(title = "OpenAlex Publications by Year", x = "Year", y = "Count") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+# 3. OpenAlex2 Pie Chart (Open Access Status) - Smaller
+p_openalex2 <- ggplot(openAlex2_clean, aes(x = "", y = Count, fill = OpenAccess)) +
+  geom_bar(stat = "identity", width = 1) +
+  coord_polar(theta = "y") +
+  theme_void() +
+  labs(title = "Open Access Status (OpenAlex)")
+
+# 4. OpenAlex3 Pie Chart (Top 10 Institutions) - Smaller
+top10_inst <- openAlex3_clean %>% arrange(desc(Count)) %>% head(10)
+p_openalex3 <- ggplot(top10_inst, aes(x = "", y = Count, fill = Institution)) +
+  geom_bar(stat = "identity", width = 1) +
+  coord_polar(theta = "y") +
+  theme_void() +
+  labs(title = "Top 10 Institutions (OpenAlex)")
+
+# --- Combine Plots into One Dashboard with Custom Layout ---
+
+# Top row: PubMed and OpenAlex1 with OpenAlex1 wider
+top_row <- p_pubmed + p_openalex1 + 
+  plot_layout(widths = c(1, 1.5))
+
+# Bottom row: Pie charts (smaller)
+bottom_row <- p_openalex2 + p_openalex3 + 
+  plot_layout(widths = c(1, 1))
+
+# Combine top and bottom rows in a 2x2 grid with more space for bar plots
+dashboard <- top_row / bottom_row
+
+# Display the dashboard
+dashboard
+
+
+```
+:::
+
+## How innovations work {.unlisted}
+
+::: panel-tabset
+## Researcher vs Scientist
+
+-   What separates scientists from a researcher ?
+
+-   The notion of to do **(re)-search** is debatable.
+
+-   Researchers gather information Vs Scientists build knowledge .
+
+## Approach
+
+```         
+- Researchers follow established paths   
+
+- Scientists blaze new trails  
+```
+
+## outcome:
+
+```         
+- Research produces data     
+
+- Science creates understanding 
+```
+
+## How innovation works ?
+
+-   Innovation lies at the interface of two or more branches of science.\
+    <div style="position: relative;"> <!-- Scrollable container with id --> <div id="scrollContainer" class="vertical-scroll-container"> ![](input/InnovationSlide/Innovation.png){width="175%"} <!-- If you have additional content (e.g., more images), add them here --> <p>-Is your work innovative enough ?</p> </div> <!-- Navigation Buttons --> <div class="vertical-nav"> <button id="scrollUp">▲</button> <button id="scrollDown">▼</button> </div> </div>
+:::
+
+
+## Final thoughts
+
+::: panel-tabset
+## Imp.System
+
+![](input/FinalThoughts/JamesClear1.png){width="475"}
+
+## Planning
+
+![](input/FinalThoughts/Emergenttaskplanner.jpg)
+
+## Doing
+
+![](input/FinalThoughts/7-Habits-of-Highly-Effective-People-Book-Summary.webp)
+
+## Influence 
+
+![](input/FinalThoughts/circles-of-influence.jpg) 
+:::
+

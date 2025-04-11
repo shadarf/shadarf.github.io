@@ -1,0 +1,25 @@
+Breakthrough:
+BCI + AI = Instant mind-to-speech conversion
+
+A new device can detect words and turn them into speech within three seconds.
+
+
+📍 The researchers used deep learning RNN-T models to achieve fluent speech synthesis with a large-vocabulary with neural decoding in 80-ms increments.
+
+In the study, Ann was a participant who lost her ability to speak after a stroke 18 years ago. Researchers used paper-thin rectangle containing 253 electrodes on the surface on her brain cortex (speech sensorimotor area) to record the activity of thousands of neurons.
+
+Researchers even personalized the synthetic voice! They used AI on recordings from her wedding video. As a result, the synthetic voice sounds like Ann’s own voice from before her injury.
+
+
+❗ The result:
+
+Before:  a single sentence took >20 seconds.
+
+Now: 47 - 90 words per minute.
+
+
+“Our framework also successfully generalized to other silent-speech interfaces, including single-unit recordings and electromyography. Our findings introduce a speech-neuroprosthetic paradigm to restore naturalistic spoken communication to people with paralysis.”
+
+Huge congratulations to the authors of this work!
+
+Just WOW.

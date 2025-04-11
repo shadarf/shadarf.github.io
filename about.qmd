@@ -4,6 +4,20 @@ title: "About"
 
 About this site
 
-```{r}
-1 + 1
-```
+This website is created to contain the contents presented on 9.04.2025 as part of lecture 6 in Bioethics course. 
+
+
+# Lecture details
+
+[Author] Shad A. Moammed
+[Date] 11.04.2025
+[Subject] Bioethics in medical research. 
+
+this is intended for educational purposes only. 
+
+
+
+
+
+
+
