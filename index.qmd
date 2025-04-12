@@ -24,6 +24,39 @@ title: "Lecture 06: Bioethics in medical research"
 
 -   AI, 3D modeling, spheroids and organoids.
 :::
+```{r}
+#| echo: false
+# Check if renv is installed; if not, install it
+if (!requireNamespace("renv", quietly = TRUE)) {
+  install.packages("renv")
+}
+
+library(renv)
+
+# Initialize the renv project if it hasn't been initialized yet.
+# The "bare" option avoids taking an immediate snapshot.
+if (!file.exists("renv.lock")) {
+  renv::init(bare = TRUE)
+}
+
+# Optionally, ensure that all packages that are loaded in your current session are installed.
+# This step iterates over non-base packages currently loaded and installs any that might be missing.
+loaded_packages <- names(sessionInfo()$otherPkgs)
+for (pkg in loaded_packages) {
+  if (!requireNamespace(pkg, quietly = TRUE)) {
+    install.packages(pkg)
+  }
+}
+
+# Take a snapshot of the project dependencies
+renv::snapshot(prompt = FALSE)
+
+# Optionally, print a confirmation message
+cat("renv snapshot updated successfully!\n")
+
+
+```
+
 
 ```{css}
 #| echo: false
